@@ -2,8 +2,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    display: block;
     margin: 0rem 6rem;
-    padding-top: 50px;
+
     box-sizing: border-box;
     color: #777;
     text-align: center;
@@ -158,8 +159,19 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 1rem;
-
     border-radius: 20px;
+}
+.Template-Button-Last {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 45%;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
 }
 
 .Template-Button:hover {

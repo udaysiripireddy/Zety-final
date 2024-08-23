@@ -265,7 +265,7 @@ function ResumeExamples() {
 
 
     <div className="cta-container">
-      <h1>Try Zety's professional resume builder now</h1>
+      <h1 style={{color:"black"}}>Try Zety's professional resume builder now</h1>
       <button className="Example-Head-button">Choose Your Resume Template</button>
     </div>
     </section>

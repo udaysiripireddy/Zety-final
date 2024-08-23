@@ -512,7 +512,7 @@ function HomePage() {
 
               </div><div className="separator"></div></>
           )}
-          <button className="Template-Button" onClick={toggleExpand}>
+          <button className="Template-Button-Last" onClick={toggleExpand}>
             {isExpanded ? 'See less' : 'See more'}
           </button>
         </div>
@@ -523,7 +523,7 @@ function HomePage() {
         Transform your career today and<br /> join thousands of satisfied users
       </h2>
       <div className="underline"></div>
-      <button className="Template-Button">Try Our Resume Maker</button>
+      <button className="Template-Button-Last">Try Our Resume Maker</button>
     </div>
 
   </>)

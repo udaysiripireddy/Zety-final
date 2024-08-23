@@ -1,22 +1,47 @@
 
-.ats-resume-checker {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 90px;
-
+.Checker-Ats-Resume {
+  display:flex;
+  gap: 50px;
 }
 
-.content{
-  padding-top: 0%;
-  margin-top: 0%;
+.Checker-Content{
+  height: 400px;
+  width: 50%;
+  display: block;
+  padding: 20px;
+}
+.Checker-Content p{
+  color: #333;
+  display: block;
+}
+.Checker-Content h1{
+  color-scheme: #333;
+  display: block;
 }
 
-
-.ats-resume-checker .content {
+.Checker-Content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #fffdfd;
+}
+
+.Checker-Head-Article {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  gap: 40px;
+}
+.Checker-Head-Card {
+  padding: 40px;
+  width: 50%;
+  display: block;
+}
+.Checker-Head-image {
+  height: 350px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .content h1 {
@@ -35,7 +60,7 @@
   color: black;
 }
 
-.check-resume-button {
+.Check-Resume-Button {
   padding: 15px 30px;
   background-color: #fbd460;
   border: none;
@@ -44,20 +69,17 @@
   cursor: pointer;
 }
 
-.check-resume-button:hover {
+.Check-Resume-Button:hover {
   background-color: #e6b854;
 }
 
-.image-container {
+.checker-Image-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 500px;
-  margin-left: 30px;
-  width: 250px;
+  width: 200px;
 }
 
-.image-container img {
+.Checker-Image-Container img {
   max-width: 100%;
   height: auto;
 }

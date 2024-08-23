@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0rem 6rem;
-    padding-top: 50px;
     box-sizing: border-box;
     color: #777;
     text-align: center;
@@ -82,7 +81,7 @@ body {
 
 .Builder-Step-Button {
     text-align: center;
-    height: 20px;
+    height: 25px;
     width: 60px;
     margin-left: 60px;
     padding-bottom: 10px;

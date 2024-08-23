@@ -21,9 +21,9 @@ function Navbar(){
                         <FontAwesomeIcon icon={faAngleDown} />
                         <div className="hover-content">
                             <div className="nav-top">
-                                <div className="nav-top-img">
+                                <NavLink to="/" className="nav-top-img">
                                     <img src={Resume} alt="" />
-                                </div>
+                                </NavLink>
                                 <NavLink to="/resume-builder" className="nav-top-text">
                                     <p className='nav-top-head'>Resume Builder</p>
                                     <p className='nav-top-line'>Create a Resume in 5 minutes. Get the job you want.</p>
@@ -35,19 +35,19 @@ function Navbar(){
                                     <div className="nav-mid-link-name">Resume Templates</div>
                                     <div className="nav-mid-link-text">Find the perfect template for you.</div>
                                 </NavLink>
-                                <NavLink className="nav-mid-links">
+                                <NavLink to="/resume-example" className="nav-mid-links">
                                     <div className="nav-mid-link-name">Resume Example</div>
                                     <div className="nav-mid-link-text">See perfect resume examples that get you jobs.</div>
                                 </NavLink>
-                                <NavLink className="nav-mid-links">
+                                <NavLink to="/resume-format" className="nav-mid-links">
                                     <div className="nav-mid-link-name">Resume Format</div>
                                     <div className="nav-mid-link-text">Pick the right resume format for your situation.</div>
                                 </NavLink>
-                                <NavLink className="nav-mid-links">
+                                <NavLink to="/how-to-write-a-resume" className="nav-mid-links">
                                     <div className="nav-mid-link-name">How to Write a Resume</div>
                                     <div className="nav-mid-link-text">Learn how to make resume that gets interviews.</div>
                                 </NavLink>
-                                <NavLink className="nav-mid-links">
+                                <NavLink to="/resume-checker" className="nav-mid-links">
                                     <div className="nav-mid-link-name">Resume Checker</div>
                                     <div className="nav-mid-link-text">Get your resume checked and scored with one click.</div>
                                 </NavLink>
